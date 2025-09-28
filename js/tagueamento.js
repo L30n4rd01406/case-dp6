@@ -63,7 +63,7 @@ function eventFileDownloadGA4(elementText, elementGroup){
 // // 4. Evento de start do formulario
 function formStartGA4(formId, formName, formDestination){
     dataLayer.push({});
-    dataLayer.psuh({
+    dataLayer.push({
         'event': 'form_start',
         form_id: toSnakeCase(formId),
         form_name: toSnakeCase(formName),
