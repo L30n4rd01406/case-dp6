@@ -31,7 +31,7 @@ function toSnakeCase(text) {
 function eventClickGA4(elementText, elementGroup){
     dataLayer.push({});
     dataLayer.push({
-        'event': 'click', 
+        'event': 'clickGA4', 
         element_name: toSnakeCase(elementText),
         element_group: toSnakeCase(elementGroup)
     });
